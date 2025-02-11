@@ -1,0 +1,9 @@
+import { EventOrganizerDashboard } from "@/features/events/components/event-organizer-dashboard";
+
+export default function OrganizerDashboardStory() {
+  return (
+    <div className="container mx-auto py-10 bg-background">
+      <EventOrganizerDashboard />
+    </div>
+  );
+}

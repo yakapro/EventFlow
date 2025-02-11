@@ -14,12 +14,20 @@ export default function EventsPage() {
               Discover and book amazing events
             </p>
           </div>
-          <Link to="/create-event" className="no-underline">
-            <Button>
-              <PlusCircle className="mr-2 h-4 w-4" />
-              Create Event
-            </Button>
-          </Link>
+          <div className="flex gap-2">
+            <Link to="/organizer/dashboard" className="no-underline">
+              <Button variant="outline">Dashboard</Button>
+            </Link>
+            <Link to="/create-wedding" className="no-underline">
+              <Button variant="outline">Create Wedding Event</Button>
+            </Link>
+            <Link to="/create-event" className="no-underline">
+              <Button>
+                <PlusCircle className="mr-2 h-4 w-4" />
+                Create Event
+              </Button>
+            </Link>
+          </div>
         </div>
 
         <div className="flex gap-4 mb-6">
